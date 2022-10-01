@@ -99,13 +99,13 @@ function fonts() {
         .pipe(gulp.dest("build/fonts"))
 }
 
-// libs folder from src folder to bulid folder
+// libs folder from src folder to build folder
 function libs() {
     return gulp.src("./src/libs/*")
         .pipe(gulp.dest("build/libs"))
 }
 
-// all html files from src folder to bulid folder
+// all html files from src folder to build folder
 function htmls() {
     return gulp.src("./src/*.html")
         .pipe(gulp.dest("./build/"))
